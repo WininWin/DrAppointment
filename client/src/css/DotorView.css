@@ -1,0 +1,28 @@
+
+.details-view .first-col .panel-body{
+	
+	height: 500px; 
+	position: relative;
+	overflow-y: scroll;
+
+}
+.patient-details .container{
+	width: 100%;
+}
+
+.appointment-info{
+	position: relative;
+	overflow-y: scroll;
+	height: 400px; 
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.appointment-info .container{ 
+	width: 100%;
+
+}
+
+.appointment-list-item .row{
+	margin-bottom: 20px;
+}

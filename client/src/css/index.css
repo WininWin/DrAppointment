@@ -1,0 +1,36 @@
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+  .Login-error{
+  	text-align: center;
+  	font-size: 14px;
+  	margin-top : 20px;
+  	font-weight: bold;
+  }
+
+}
+button:focus {outline:0;}
+
+.App {
+  margin-top: 15px;
+}
+
+.App .navbar-brand {
+  font-weight: bold;
+}
+
+a{
+  cursor: pointer;
+}
+span.label{
+  cursor: pointer;
+}
+.details-view{
+  margin-top: 30px;
+}
