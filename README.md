@@ -34,13 +34,17 @@ Wait console message --Done dummy appointments data--
 
 Visit [http://localhost:3000](http://localhost:3000)
 
-Default Doctor UserName : testUserDoctor0 ~ testUserDoctor6
+Default Doctor UserName : testUserDoctor0 ~ testUserDoctor6 
 
 default Doctor Password : 12345678
+
+(ex. username : testUserDoctor4, password: 12345678)
 
 Default Patient UserName : testUserPatient0 ~ testUserPatient29
 
 default Patient Password : 12345678
+
+(ex. username : testUserPatient7, password: 12345678)
 
 If you log in as Doctor, you can see patients list.
 Click a patient for see patient's details, appointments, and medical records.
@@ -73,11 +77,11 @@ Userview(PatientView or DoctorView) : `http://localhost:3000/dash` or `http://lo
 
 # Assumptions
 
-⋅⋅* Only Doctor can see patients list
-⋅⋅* Only Doctor can remove patient's mediecal records
-⋅⋅* Only Doctor can accept or decline appointment requests
-⋅⋅* Only Paitient can submit appointment requests
-⋅⋅* Both Doctor and Patient can see medical records
-..* Both Doctor and Patient can upload medical records
+* Only Doctor can see patients list
+* Only Doctor can remove patient's mediecal records
+* Only Doctor can accept or decline appointment requests
+* Only Paitient can submit appointment requests
+* Both Doctor and Patient can see medical records
+* Both Doctor and Patient can upload medical records
 
 
