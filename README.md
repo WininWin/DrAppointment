@@ -27,13 +27,17 @@ npm install
 cd ..
 npm start
 ```
-Visit [http://localhost:3000](http://localhost:3000)
+
 Wait for generating dummy data
 
+Visit [http://localhost:3000](http://localhost:3000)
+
 Default Doctor UserName : testUserDoctor0 ~ testUserDoctor6
+
 default Doctor Password : 12345678
 
 Default Patient UserName : testUserPatient0 ~ testUserPatient29
+
 default Patient Password : 12345678
 
 Use uploadSample for test upload or any other pdf files 
