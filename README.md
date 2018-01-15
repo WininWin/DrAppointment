@@ -1,4 +1,4 @@
-#Dr.Appointment
+# Dr.Appointment
 
 Using boiler plate from https://github.com/kevinschaich/react-full-stack-starter
 
@@ -35,3 +35,5 @@ default Doctor Password : 12345678
 
 Default Patient UserName : testUserPatient0 ~ testUserPatient29
 default Patient Password : 12345678
+
+Use uploadSample for test upload or any other pdf files 
