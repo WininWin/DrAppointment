@@ -62,6 +62,8 @@ class PatientView extends Component {
 
   appointmentModalShow = function(appointmentID){
     this.setState({appointmentModal: true,
+        purpose : "",
+        appointmentDate : moment()
              
        });
   }
