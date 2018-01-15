@@ -14,7 +14,7 @@ const testPassword = '12345678';
 const bcrypt = require('bcrypt-nodejs');
 const fs = require('fs');
 const mkdirp = require('mkdirp');
-const dir = __dirname  + '/../uploadSample';
+const dir = __dirname  + '/../medicalRecords';
 
 
 function randomDate(start, end) {

@@ -30,6 +30,8 @@ npm start
 
 Wait for generating dummy data
 
+Wait console message --Done dummy appointments data--
+
 Visit [http://localhost:3000](http://localhost:3000)
 
 Default Doctor UserName : testUserDoctor0 ~ testUserDoctor6
