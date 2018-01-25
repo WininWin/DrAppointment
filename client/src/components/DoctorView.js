@@ -197,6 +197,8 @@ class DoctorView extends Component {
           currPatient : patient.data[0]
       });
 
+       this.updatePatientsList();
+       
       });
     });
   }
@@ -212,6 +214,7 @@ class DoctorView extends Component {
     }, (res) => {
 
         this.updateMedicalRecordList(this.state.currPatient);
+         this.updatePatientsList();
     });
   }
 
@@ -250,6 +253,32 @@ class DoctorView extends Component {
 
       this.updateAppointmentList(patient);
       
+
+  }
+
+  //update patientslist
+   updatePatientsList(){
+
+     DB.getPatients((res) => {
+       res.json().then((patients)=>{      
+        const pList = patients.data.map((patient)=>
+           <ListGroupItem key={patient._id}
+              onClick={() => this.onClickPatient(patient)}
+              data-category={patient}
+              value={patient.name} >
+
+                {patient.name}
+              </ListGroupItem>
+        );
+
+
+
+         this.setState({
+          initpatientList : pList,
+          patientsList : pList
+         });
+       });
+    });
 
   }
 

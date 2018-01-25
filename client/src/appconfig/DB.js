@@ -200,7 +200,6 @@ const uploadMedicalRecord = (patient, file, cb) => {
     'Authorization' : 'bearer ' + Auth.getToken(),
     },
     method: 'post',
-    dataType: 'json',
     body: formData
 
   })
