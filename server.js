@@ -105,13 +105,17 @@ app.use(passport.initialize());
 app.set('port', (process.env.PORT || 3001));
 
 // Express only serves static assets in production
-if (process.env.NODE_ENV === 'production') {
+//if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'));
-}
+//}
+
+
 
 //api
 require('./ServerConfig/api.js')(app, router, passport, User,Appointment,fs, jwt, db.jwtSecret, multer);
-
+  app.get('*', function (request, response){
+      response.sendFile(path.resolve(__dirname, 'client/public', 'index.html'))
+    })
 
 app.listen(app.get('port'));
 console.log('Server running on port ' + app.get('port'));

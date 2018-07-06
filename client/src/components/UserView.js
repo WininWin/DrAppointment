@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import DB from "../appconfig/DB.js";
 import Auth from "../appconfig/Auth.js";
-import  Redirect  from 'react-router-dom';
+import  {Redirect}  from 'react-router-dom';
 import DoctorView from "./DoctorView.js";
 import PatientView from "./PatientView.js";
 
