@@ -8,6 +8,8 @@ const passport = require('passport');
 const jwt = require('jsonwebtoken');
 const multer = require('multer');
 
+const path = require('path');
+
 const generateDB = require('./ServerConfig/generateDB.js');
 //db setting
 mongoose.connect(db.url);
